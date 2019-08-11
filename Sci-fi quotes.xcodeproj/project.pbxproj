@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A261D8522DD0FAC00105AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261D8422DD0FAC00105AE5 /* main.m */; };
+		6A261D8F22DD126900105AE5 /* NSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261D8E22DD126900105AE5 /* NSApp.m */; };
+		6A261D9222DD13A500105AE5 /* NSQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261D9122DD13A500105AE5 /* NSQuote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		6A261D8122DD0FAC00105AE5 /* Sci-fi quotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sci-fi quotes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A261D8422DD0FAC00105AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A261D8D22DD126900105AE5 /* NSApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSApp.h; sourceTree = "<group>"; };
+		6A261D8E22DD126900105AE5 /* NSApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSApp.m; sourceTree = "<group>"; };
+		6A261D9022DD13A500105AE5 /* NSQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSQuote.h; sourceTree = "<group>"; };
+		6A261D9122DD13A500105AE5 /* NSQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSQuote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		6A261D7822DD0FAC00105AE5 = {
 			isa = PBXGroup;
 			children = (
+				6A261D8D22DD126900105AE5 /* NSApp.h */,
+				6A261D8E22DD126900105AE5 /* NSApp.m */,
+				6A261D9022DD13A500105AE5 /* NSQuote.h */,
+				6A261D9122DD13A500105AE5 /* NSQuote.m */,
 				6A261D8322DD0FAC00105AE5 /* Sci-fi quotes */,
 				6A261D8222DD0FAC00105AE5 /* Products */,
 			);
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A261D8F22DD126900105AE5 /* NSApp.m in Sources */,
 				6A261D8522DD0FAC00105AE5 /* main.m in Sources */,
+				6A261D9222DD13A500105AE5 /* NSQuote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
